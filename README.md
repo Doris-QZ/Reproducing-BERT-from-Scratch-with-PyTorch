@@ -4,15 +4,15 @@ I’m not the first to do this.  But it is something I must  do to clear up a lo
 
 ### Repository Structure
 `1. Data for BERT.ipynb`  
-Prepares training data for BERT using the IMDB dataset from Hugging Face.  
-* **Masked Language Modeling (MLM)**: randomly masking tokens in the input for prediction
-* **Next Sentence Prediction (NSP)**: constructing paired sentences (positive and negative examples)
+Processes the data to be compatible with BERT’s training objectives, including: 
+* **Masked Language Modeling (MLM)**: randomly masks tokens in the input for prediction.
+* **Next Sentence Prediction (NSP)**: constructs paired sentences (positive and negative examples).
 
 `2. Reproducing BERT Model from Scratch using PyTorch.ipynb`  
-Builds the BERT model architecture step by step in PyTorch.  
-* **BERT Embeddings**: positional, token, and segment embedding
+Builds the BERT model architecture step by step in PyTorch and covers the main building blocks:
+* **BERT Embeddings**: positional, token, and segment embeddings.
 * **Transformer Blocks**: multi-head-attention and feed-forward layers
-* **Output Layer**: MLM_output and NSP_output 
+* **Output Layer**: MLM output and NSP output 
 
 ### Project Goals
 * Gain a deep understanding of BERT by implementing it from scratch.
